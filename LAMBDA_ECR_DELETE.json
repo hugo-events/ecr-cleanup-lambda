@@ -1,0 +1,27 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "Service": [
+          "lambda.amazonaws.com"
+        ]
+      },
+      "Action": [
+                "ecr:BatchDeleteImage",
+                "ecr:DescribeRepositories",
+                "ecr:ListImages",
+                "ecr:DescribeImages",
+                "ecs:DescribeClusters",
+                "ecs:DescribeTaskDefinition",
+                "ecs:DescribeTasks",
+                "ecs:ListClusters",
+                "ecs:ListTaskDefinitions",
+                "ecs:ListTasks"
+
+            ],
+      "Resource": ["*"]
+    }
+  ]
+}

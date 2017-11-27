@@ -22,3 +22,5 @@ botocore-1.4.68.dist-info
 docutils-0.12.dist-info
 requests-2.11.1.dist-info
 .idea
+/DIST
+/.env
